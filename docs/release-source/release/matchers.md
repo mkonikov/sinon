@@ -5,7 +5,7 @@ breadcrumb: matchers
 ---
 
 Matchers can be passed as arguments to `spy.calledOn`, `spy.calledWith`, `spy.returned` and the
-corresponding `sinon.assert` functions as well as `spy.withArgs`. Matchers allow to be either more fuzzy or more specific about the expected value.
+corresponding `sinon.assert` functions as well as `stub.withArgs`. Matchers allow to be either more fuzzy or more specific about the expected value.
 
 ```javascript
 "test should assert fuzzy": function () {
